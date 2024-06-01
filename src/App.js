@@ -12,7 +12,7 @@ import { LibroUpdate } from './components/Libros/LibroUpdate';
 
 const App = () => {
   return (
-    <Router forceRefresh>
+    <Router>
       <Header />
       <div className="content">
         <Switch>
